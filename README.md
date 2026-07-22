@@ -56,4 +56,4 @@ Provisioned by Terraform:
 
 ## Architecture
 
-![Architecture](docs/architecture.png)
+![Architecture](architecture.png)
