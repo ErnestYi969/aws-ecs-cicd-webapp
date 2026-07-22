@@ -33,3 +33,23 @@ docker build -t ecs-cicd-demo ./app
 Run container:
 
 docker run -p 5000:5000 ecs-cicd-demo
+
+## Deployment Flow
+
+1. Push code to GitHub
+2. GitHub Actions builds Docker image
+3. Push image to Amazon ECR
+4. Update ECS service
+5. ECS Fargate deploys new task
+
+
+Infrastructure
+
+Provisioned by Terraform:
+
+- VPC
+- ALB
+- ECS Fargate
+- ECR
+- IAM
+- CloudWatch Logs
