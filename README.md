@@ -57,3 +57,13 @@ Provisioned by Terraform:
 ## Architecture
 
 ![Architecture](architecture.png)
+
+## Screenshots
+
+### GitHub Actions
+
+![CI/CD](github-actions-success.png)
+
+### Application
+
+![App](application-running.png)
