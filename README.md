@@ -53,3 +53,7 @@ Provisioned by Terraform:
 - ECR
 - IAM
 - CloudWatch Logs
+
+## Architecture
+
+![Architecture](docs/architecture.png)
